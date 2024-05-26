@@ -8,16 +8,14 @@ This project showcases a simple yet effective machine learning model using linea
 Reading Data:
 The data is read from a CSV file using Pandas:
 
-# Manual calculation
-predicted_score = m * x + c
-
-# Using the model
-predicted_score_model = reg.predict([[x]])
+#  calculation
+ Y=mX+C
+prediction syntax :  reg.predict([[x]])
 
 # Repository Structure
-   # Model.csv: The dataset containing practicing hours and scores.
-   # linear_regression_model.py: The Python script containing all the code for data preparation, visualization, model training, and prediction.
-   # README.md: This file, providing an overview and detailed description of the project.
+   Model.csv: The dataset containing practicing hours and scores.
+   linear_regression_model.py: The Python script containing all the code for data preparation, visualization, model training, and prediction.
+   README.md: This file, providing an overview and detailed description of the project.
 # How to Use
 Clone the repository:
 git clone https://github.com/Shazidul-Haque-Simanta/linear-regression-model.git
